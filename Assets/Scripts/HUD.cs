@@ -56,8 +56,6 @@ public class HUD : MonoBehaviour {
 		mPausePanel.gameObject.SetActive (true); 
 		mHUDPanel.gameObject.SetActive (false); 
 		mIsPaused = true; 
-		Cursor.visible = true;
-		Cursor.lockState = CursorLockMode.Confined;
 	} 
 
 	void UnPause(){ 
@@ -65,8 +63,6 @@ public class HUD : MonoBehaviour {
 		mPausePanel.gameObject.SetActive (false); 
 		mHUDPanel.gameObject.SetActive (true); 
 		mIsPaused = false; 
-		Cursor.visible = false;
-		Cursor.lockState = CursorLockMode.Locked;
 	}
     #endregion
     
