@@ -52,14 +52,27 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MovementUI.cs" />
+     <Compile Include="Assets\Scripts\Attribute.cs" />
+     <Compile Include="Assets\Scripts\Condition.cs" />
+     <Compile Include="Assets\Scripts\ConditionDexCheck.cs" />
+     <Compile Include="Assets\Scripts\ConditionIntCheck.cs" />
+     <Compile Include="Assets\Scripts\ConditionStrCheck.cs" />
+     <Compile Include="Assets\Scripts\Effect.cs" />
+     <Compile Include="Assets\Scripts\EffectMove.cs" />
+     <Compile Include="Assets\Scripts\Event.cs" />
+     <Compile Include="Assets\Scripts\EventData.cs" />
+     <Compile Include="Assets\Scripts\EventManager.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GridManager.cs" />
      <Compile Include="Assets\Scripts\HUD.cs" />
      <Compile Include="Assets\Scripts\IntVector2.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\NameVal.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerStats.cs" />
      <Compile Include="Assets\Scripts\SFX.cs" />
      <Compile Include="Assets\Scripts\Tile.cs" />
+     <Compile Include="Assets\Scripts\UpdatableData.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

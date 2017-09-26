@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
 	void Start () {
 		GridManager.instance.SetupGridAndRoad ();
 		PlayerManager.instance.moveToTile (GridManager.instance.roadList [0]);
+
 	}
 	
 	// Update is called once per frame

@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour {
 
-	public IntVector2 gridPosition;
+	public int positionOnRoad;
+
+	IntVector2 gridPosition;
 
 	public static PlayerManager instance;
 

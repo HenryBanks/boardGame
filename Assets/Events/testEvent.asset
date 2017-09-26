@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e057184a20c2459ab0fca0326d8382a, type: 3}
+  m_Name: testEvent
+  m_EditorClassIdentifier: 
+  title: testEvent
+  description: This is a test event
+  option1Text: Move forward 10 if Str
+  conditions1:
+  - ConditionStrCheck
+  cValues1: 01000000
+  effects1true:
+  - EffectMove
+  values1true: 0a000000
+  effects1false:
+  - EffectMove
+  values1false: feffffff
+  option2Text: Move Backward 5
+  conditions2: []
+  cValues2: 
+  effects2true:
+  - EffectMove
+  values2true: fbffffff
+  effects2false: []
+  values2false: 

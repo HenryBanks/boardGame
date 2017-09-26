@@ -6,17 +6,12 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour {
 
 	CanvasGroup mMainPanel; 
-	CanvasGroup mLevelSelectPanel; 
 
 	public static MainMenu instance;
 
 	void Awake(){ 
 		instance = this; 
 		mMainPanel = transform.Find ("MainPanel").GetComponent<CanvasGroup> (); 
-
-		if (PlayerPrefs.GetInt ("level")==null) {
-			PlayerPrefs.SetInt ("level", 0);
-		}
 	} 
 
 	// Use this for initialization 
