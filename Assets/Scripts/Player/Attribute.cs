@@ -22,4 +22,8 @@ public class Attribute {
 		return total;
 	}
 
+	public void addToValue(int valToAdd){
+		value += valToAdd;
+	}
+
 }
